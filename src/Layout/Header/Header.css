@@ -64,3 +64,42 @@
 .linksTitle:hover{
     color: rgba(238, 108, 85, 0.781)
 }
+
+/* info description start  */
+.bannerDesContainer{
+    margin-top: 5rem;
+    float: right;
+    margin-left: 60%;
+}
+.bannerDesContainer .bannerTitle{
+    padding: 5rem 1rem .5rem 6rem;
+    color: #0e0d0d;
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+.bannerDesContainer .bannerDes{
+    font-size: 14px;
+    width: 90%;
+    line-height: 28px;
+    font-weight: 500;
+    color: #ebdedec9;
+    padding: .5rem 0 0rem 6rem;
+    text-align: justify;
+}
+.btnArea button {
+    font-size: 12px;
+    padding: 12px 28px;
+    border: 0;
+    background-color: rgba(11, 207, 214, 0.815);
+    margin: 1.5rem 0 0rem 6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.contactBtn:hover{
+    background-color: tomato;
+    color: #0e0d0d;
+}
