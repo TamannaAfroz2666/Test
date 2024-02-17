@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.workContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.workSections {
+    height: 200px;
+    background-color: rgba(1, 92, 95, 0.815);
+}
+
+.workSubCon {
+    width: 90%;
+    margin: auto;
+}
+
+.elementsSection {
+    display: flex;
+    /* align-items: center; */
+    justify-items: center;
+    gap: 8rem;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+
+}
+
+.projectSec {
+    padding: 6rem 0 0 0;
+    display: flex;
+    gap: 1.3rem;
+}
+
+.projectInfo .countTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+
+}
+
+.projectInfo .NameTitle {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    bottom: .3rem;
+    position: relative;
+
+}
