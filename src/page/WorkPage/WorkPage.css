@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.workPageCon {
+    height: 100%;
+    width: 100%;
+}
+
+.workPageSections {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+}
+
+.imageSec img {
+    width: 334px;
+    height: 260px;
+    margin: 0 0 -1rem 0;
+}
+
+/* overlay section start  */
+.imgAll {
+    position: relative;
+    width: 330px;
+}
+
+.imgAll img {
+    width: 339px;
+    height: 280px;
+    display: block;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.imgAll:hover .image {
+    opacity: 0.8;
+}
+
+.imgAll:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    background-color: rgba(0, 0, 0, 0.616);
+    /* border: 2px solid #ff8000cb;   */
+    width: 332px;
+    height: 278px;
+    bottom: 2rem;
+    position: relative;
+ 
+}
+
+.textTitle {
+   
+   
+    margin: 60px 10px 0 10px;
+   
+}
+.iconEye{
+    margin-top: 7rem;
+}
+

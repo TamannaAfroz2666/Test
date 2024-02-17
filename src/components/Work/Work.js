@@ -4,6 +4,7 @@ import { TfiBag } from "react-icons/tfi";
 import { MdOutlineWatchLater } from "react-icons/md";
 import { IoIosStarOutline } from "react-icons/io";
 import { MdFavoriteBorder } from "react-icons/md";
+import WorkPage from '../../page/WorkPage/WorkPage';
 
 const Work = () => {
     return (
@@ -50,9 +51,10 @@ const Work = () => {
                     </div>
 
                 </div>
-
             </div>
-
+            <div className="workActivities">
+                <WorkPage></WorkPage>
+            </div>
         </div>
     );
 };
