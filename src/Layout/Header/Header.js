@@ -20,7 +20,7 @@ const Header = () => {
                                 <motion.li className='navListItems'
 
                                 >
-                                    <Link className='active' to='/'>home
+                                    <Link className='active' to='/home'>home
                                     </Link>
                                 </motion.li>
                                 <motion.li className='navListItems'

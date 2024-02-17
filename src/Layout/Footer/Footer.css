@@ -17,7 +17,7 @@
 .footerContent{
     display: flex;
     gap: 8rem;
-    /* justify-content: space-between; */
+    
 }
 .companyName .companyNameTitle{
     font-size: 16px;
