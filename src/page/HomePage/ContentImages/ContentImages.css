@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contentsImages{
+    height: 100%;
+    width: 100%;
+}
+.workPageSections{
+    margin-top: 3rem;
+}
+.text1 {
+    background-color: rgba(117, 212, 236, 0.89);
+    width: 332px;
+    height: 278px;
+    bottom: 2rem;
+    position: relative;
+ 
+}
