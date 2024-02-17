@@ -9,22 +9,26 @@
 .homePageHeader {
     height: 100%;
     width: 100%;
-    background-color: rgb(236, 238, 237);
+    
 }
 
+
+.homePageSubHeader {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(236, 238, 237);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
 .homePageSec {
     width: 90%;
     margin: auto;
 }
-
-.homePageNavigation {
-    height: 80px;
-
-}
-
 .navContainer1 {
     display: flex;
     justify-content: space-between;
     /* padding-top: 2.5rem; */
     line-height: 80px;
+   
 }

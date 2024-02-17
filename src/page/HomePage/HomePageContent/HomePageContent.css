@@ -8,9 +8,6 @@
     height: 100%;
     width: 100%;
     background-color: rgba(209, 180, 180, 0.068);
-    padding: 0 0 4rem 0;
-    /* margin: 4rem 0 0 0; */
-
 }
 
 .homePageContents {
@@ -22,7 +19,7 @@
     font-size: 22px;
     font-weight: 600;
     text-transform: capitalize;
-    padding: 5rem 0 1rem 0;
+    padding: 16rem 0 1rem 0;
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }

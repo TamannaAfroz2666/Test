@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 const HomePageHeader = () => {
     return (
         <div className='homePageHeader'>
+            <div className="homePageSubHeader">
             <div className="homePageSec">
                 <div className="homePageNavigation">
                     <div className="navContainer1">
@@ -43,6 +44,9 @@ const HomePageHeader = () => {
                 </div>
 
             </div>
+
+            </div>
+           
 
         </div>
     );
