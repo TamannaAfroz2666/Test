@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.testimonials{
+    height: 100%;
+    width: 100%;
+}
+.testimonialSec{
+    width: 90%;
+    margin: auto;
+}
+.btnpp{
+    color: red;
+    margin-top: 12rem;
+}
+#good{
+    color: red;
+    background-color: aqua;
+    width: 10px;
+    border-radius: 50%;
+}
+.describe{
+    font-size: 14px;
+    padding: 2rem 4rem;
+}

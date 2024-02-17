@@ -5,6 +5,8 @@ import About from '../components/About/About';
 import Work from '../components/Work/Work';
 import Process from '../components/Process/Process';
 import Service from '../components/Service/Service';
+import Testimonials from '../components/Testimonials/Testimonials';
+import Contact from '../components/Contact/Contact'
 
 const Main = () => {
     return (
@@ -16,6 +18,11 @@ const Main = () => {
                     <Work></Work>
                     <Process></Process>
                     <Service></Service>
+                  
+                
+                    <Testimonials></Testimonials>
+                    <Contact></Contact>
+                  
                 </div>
             </div>
             
