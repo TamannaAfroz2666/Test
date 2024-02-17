@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    font-style: normal;
+
+}
+
+.serviceContainer {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(224, 218, 218, 0.336);
+}
+
+.serviceSection {
+    width: 90%;
+    margin: auto;
+    padding: 0 0 3rem 0;
+}
+
+.serviceContents {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.serviceUi1 {
+    padding-top: 6rem;
+}
+
+.iconField {
+    margin: 0rem 0 .5rem 6rem;
+
+}
+
+.serviceTitle {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem 0 .5rem 3rem;
+
+}
+
+.serviceSortDes {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: gray;
+    padding: 0 0 2rem 0;
+    width: 80%;
+    text-align: center;
+
+}
+
+.serviceTitleMobile {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem 0 .5rem 4rem;
+
+}
+
+.serviceSortDesApp {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: gray;
+    padding: 0 0 2rem 0;
+    width: 89.12%;
+    text-align: center;
+
+}

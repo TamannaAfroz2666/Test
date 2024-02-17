@@ -1,9 +1,6 @@
 import React from 'react';
 import './Process.css';
-import { FaPlayCircle } from "react-icons/fa";
-// import { FaPlayCircle } from "react-icons/fa";
 import { MdPlayCircle } from "react-icons/md";
-import { FaRegPlayCircle } from "react-icons/fa";
 
 
 const Process = () => {
@@ -18,7 +15,7 @@ const Process = () => {
                     <div className="watchVideoLink">
                         <a className='watchLink' href="/watch-video">  <MdPlayCircle size={80} className='faplayCir' /> </a>
                     </div>
-                    {/* <FaPlayCircle  size={40}/> */}
+                    
                 </div>
             </div>
 
