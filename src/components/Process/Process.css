@@ -21,3 +21,24 @@
     font-family: "Poppins";
     font-style: normal;
 }
+.processImg{
+    margin: 3rem 0 2rem 0;
+
+}
+.processImg .imgSection{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(160, 178, 211, 0.137)),url('../../assets//Images//Process/cat11.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 90%;
+    margin: auto;
+}
+.watchVideoLink{
+    padding: 16% 45%;
+}
+.faplayCir{
+   /* color: rgba(11, 207, 214, 0.815); */
+   color: rgb(25, 129, 219);
+   background-color: rgba(240, 248, 255, 0.144);
+}
