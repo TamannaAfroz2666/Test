@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import sing from '../../assets/Images/About/sing22.jpg'
+import AboutPage from '../../page/AboutPage';
 
 const About = () => {
     return (
@@ -11,8 +12,9 @@ const About = () => {
                 <div className="singContainer">
                     <img src={sing} alt="" />
                 </div>
-
-
+            </div>
+            <div className="subPageContainer">
+                <AboutPage/>
             </div>
 
         </div>
