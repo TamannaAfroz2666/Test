@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footerContainer{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    padding: 0 0 4rem 0;
+}
+.footerSections{
+    width: 90%;
+    margin: auto;
+}
+.footerContent{
+    display: flex;
+    gap: 8rem;
+    /* justify-content: space-between; */
+}
+.companyName .companyNameTitle{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5rem 0 0rem 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #ffffffea;
+    letter-spacing: 1px;
+}
+.companyName .footerTitle{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0rem 0 .5rem 0;
+    font-family: "Poppins";
+    font-style: normal;
+    color: #ffffff6e;
+    letter-spacing: .2px;
+
+}
+
+/* email section  */
+ .pirollEmail{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5rem 0 0rem 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #ffffff6e;
+    letter-spacing: 1px;
+
+}
+.mobileFooter{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0rem 0 .5rem 0;
+    font-family: "Poppins";
+    font-style: normal;
+    color: #ffffff6e;
+    letter-spacing: .2px;
+
+}
+.projectDetails{
+    padding: 5rem 0 0rem 0;
+    display: flex;
+    gap: 1rem;
+
+}
+.listFooter{
+    list-style: none;
+}
+.listFooter a{
+    text-decoration: none;
+}
+.listFooter .footerListTitle{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Poppins";
+    font-style: normal;
+    color: #ffffff6e;
+    letter-spacing: 1px;
+
+}
+.socialMedia{
+    padding: 5rem 0 0rem 0;
+
+}

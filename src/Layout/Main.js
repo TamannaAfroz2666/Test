@@ -7,6 +7,7 @@ import Process from '../components/Process/Process';
 import Service from '../components/Service/Service';
 import Testimonials from '../components/Testimonials/Testimonials';
 import Contact from '../components/Contact/Contact'
+import Footer from './Footer/Footer';
 
 const Main = () => {
     return (
@@ -24,6 +25,7 @@ const Main = () => {
                     <Contact></Contact>
                   
                 </div>
+                <Footer></Footer>
             </div>
             
         </div>
