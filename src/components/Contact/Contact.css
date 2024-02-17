@@ -1,23 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.contactContainer{
+
+.contactContainer {
     height: 100%;
     width: 100%;
     background-color: rgba(224, 218, 218, 0.336);
+    padding: 0 0 4rem 0;
 }
-.contactSections{
+
+.contactSections {
     width: 90%;
     margin: auto;
 }
-.titleContact{
+
+.titleContact {
     text-align: center;
     font-size: 22px;
     font-weight: 600;
     padding: 5.5rem 0 1.5rem 0;
     font-family: "Poppins", sans-serif;
     font-style: normal;
+}
+
+.contactContents {
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.nameEmailSec {
+    display: flex;
+    gap: 2rem;
+}
+
+.nameSection .nameInputField {
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+    color: #111;
+    padding: 0 5px;
+    border: 0;
+    margin: 0 0 1rem 0;
+    background-color: rgba(167, 163, 163, 0.315);
+}
+
+input:focus {
+    outline: none;
+}
+
+::placeholder {
+    font-size: 14px;
+    padding-left: 4px;
+    color: #111111d2;
+    font-weight: 500;
+}
+
+.titleInputField {
+    width: 830px;
+    height: 50px;
+    font-size: 16px;
+    color: #111;
+    padding: 0 5px;
+    border: 0;
+    margin: 1rem 0 1rem 0;
+    background-color: rgba(167, 163, 163, 0.315);
+
+}
+
+.commentInputField {
+    width: 830px;
+    height: 190px;
+    font-size: 16px;
+    color: #111;
+    padding: 0 5px;
+    border: 0;
+    margin: 1rem 0 1rem 0;
+    background-color: rgba(167, 163, 163, 0.315);
+
+}
+
+.commentInputField::placeholder {
+    bottom: 4rem;
+    position: relative;
+}
+
+.sendBtn {
+    margin-top: 2rem;
+
+}
+
+.sendBtn button {
+    font-size: 12px;
+    padding: 12px 28px;
+    border: 0;
+    background-color: rgba(11, 207, 214, 0.815);
+    margin: 1.5rem 0 1rem 40%;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+
 }
