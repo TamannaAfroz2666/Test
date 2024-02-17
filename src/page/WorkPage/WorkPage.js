@@ -14,9 +14,6 @@ const WorkPage = () => {
     return (
         <div className='workPageCon'>
             <div className="workPageSections">
-                {/* <div className="imageSec">
-                    <img src={img1} alt="" />
-                </div> */}
                 <div className="imgAll">
                     <img src={img2} alt="" className="image" />
                     <div className="overlay">
@@ -91,6 +88,9 @@ const WorkPage = () => {
                 </div>
 
 
+            </div>
+            <div className="moreBtnSec">
+                <button>load more work</button>
             </div>
 
 

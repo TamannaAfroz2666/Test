@@ -73,3 +73,19 @@
     margin-top: 7rem;
 }
 
+/* -----------load more button start ------------ */
+.moreBtnSec{
+    margin: 0 0 1rem 0;
+}
+.moreBtnSec button {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 20px 44%;
+    background-color: rgba(128, 128, 128, 0.158);
+    color: rgb(68, 65, 65);
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 0;
+    
+}
+
