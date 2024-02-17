@@ -4,12 +4,11 @@
     box-sizing: border-box;
 }
 
-.workContainer {
+.worksDetails{
     height: 100%;
     width: 100%;
 }
-
-/* .workSections {
+.workSections {
     height: 200px;
     background-color: rgba(1, 92, 95, 0.815);
 }
@@ -48,4 +47,4 @@
     bottom: .3rem;
     position: relative;
 
-} */
+}
