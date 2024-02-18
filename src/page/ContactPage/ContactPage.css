@@ -10,7 +10,11 @@
     height: 100%;
     width: 100%;
 }
-.contactPageContainer{
+/* .contactPageContainer{
     width: 90%;
     margin: auto;
+} */
+.contactPageBody{
+    margin-top: 9rem;
+
 }
