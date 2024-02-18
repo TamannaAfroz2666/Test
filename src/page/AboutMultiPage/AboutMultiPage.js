@@ -4,6 +4,8 @@ import AboutPageHeader from '../../Layout/Header/AboutPageHeader/AboutPageHeader
 import AboutBanner from './AboutBanner/AboutBanner';
 import WorkDetails from '../../components/Work/WorkDetails/WorkDetails';
 import AboutMe from './AboutMe/AboutMe';
+import NeedProject from './NeedProject/NeedProject';
+import Footer from '../../Layout/Footer/Footer';
 
 const AboutMultiPage = () => {
     return (
@@ -13,8 +15,9 @@ const AboutMultiPage = () => {
                 <AboutBanner></AboutBanner>
                 <WorkDetails></WorkDetails>
                 <AboutMe></AboutMe>
-
+                <NeedProject></NeedProject>
             </div>
+            <Footer></Footer>
             
         </div>
     );
