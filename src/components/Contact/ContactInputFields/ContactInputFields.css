@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ContactInputFields{
+    height: 100%;
+    width: 100%;
+}
+.contactContents1 {
+    /* width: 70%; */
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.nameEmailSec {
+    display: flex;
+    gap: 2rem;
+}
+
+.nameSection .nameInputField {
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    color: #111;
+    padding: 0 5px;
+    border: 0;
+    margin: 0 0 1rem 0;
+    background-color: rgba(167, 163, 163, 0.315);
+}
+
+input:focus {
+    outline: none;
+}
+
+::placeholder {
+    font-size: 14px;
+    padding-left: 4px;
+    color: #111111d2;
+    font-weight: 500;
+}
+
+.titleInputField {
+    width: 535px;
+    height: 50px;
+    font-size: 16px;
+    color: #111;
+    padding: 0 5px;
+    border: 0;
+    margin: 1rem 0 1rem 0;
+    background-color: rgba(167, 163, 163, 0.315);
+
+}
+
+.commentInputField {
+    width: 540px;
+    height: 190px;
+    font-size: 16px;
+    color: #111;
+    padding: 0 5px;
+    border: 0;
+    margin: 1rem 0 1rem 0;
+    background-color: rgba(167, 163, 163, 0.315);
+
+}
+
+.commentInputField::placeholder {
+    bottom: 4rem;
+    position: relative;
+}
+
+.sendBtn {
+    margin-top: 2rem;
+
+}
+
+.sendBtn button {
+    font-size: 12px;
+    padding: 12px 28px;
+    border: 0;
+    background-color: rgba(11, 207, 214, 0.815);
+    margin: 1.5rem 0 1rem 30%;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+
+}
