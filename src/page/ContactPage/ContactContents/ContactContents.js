@@ -2,6 +2,7 @@ import React from 'react';
 import './ContactContents.css';
 import ContactContentsInfo from './ContactContentsInfo/ContactContentsInfo';
 import ContactInputFields from '../../../components/Contact/ContactInputFields/ContactInputFields';
+import ContactMap from './ContactMap/ContactMap';
 
 const ContactContents = () => {
     return (
@@ -16,6 +17,10 @@ const ContactContents = () => {
                             <ContactInputFields></ContactInputFields>
                         </div>
                     </div>
+                </div>
+                <div className="mapSection">
+                    <ContactMap></ContactMap>
+                    
                 </div>
             </div>
         </div>
