@@ -1,13 +1,13 @@
 import React from 'react';
-import './AboutPageHeader.css';
+import './ContactHeader.css';
 import logo from '../../../assets/Images/Logo/logotri.jpg';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
-const AboutPageHeader = () => {
+const ContactHeader = () => {
     return (
-        <div className='AboutPageHeaders'>
-            <div className="homePageSubHeader">
+        <div className='contactHeader'>
+             <div className="homePageSubHeader">
                 <div className="homePageSec">
                     <div className="homePageNavigation">
                         <div className="navContainer1">
@@ -28,14 +28,14 @@ const AboutPageHeader = () => {
                                         whileHover={{ scale: 1.09 }}
 
                                     >
-                                        <Link className='active' to="/about">about</Link>
+                                        <Link className='linksTitle' to="/about">about</Link>
                                     </motion.li>
 
                                     <motion.li className='navListItems'
                                         whileHover={{ scale: 1.09 }}
 
                                     >
-                                        <Link className='linksTitle' to="/contact">contact</Link>
+                                        <Link className='active'  to="/contact">contact</Link>
                                     </motion.li>
                                 </ul>
                             </div>
@@ -47,9 +47,9 @@ const AboutPageHeader = () => {
                 </div>
 
             </div>
-
+            
         </div>
     );
 };
 
-export default AboutPageHeader;
+export default ContactHeader;
