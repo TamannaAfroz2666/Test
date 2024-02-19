@@ -118,3 +118,10 @@ input:focus {
     letter-spacing: 1px;
 
 }
+.nameError{
+    font-size: 12px;
+    color: red;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    font-family: 'Poppins';
+}
