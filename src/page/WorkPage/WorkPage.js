@@ -1,96 +1,62 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './WorkPage.css';
-import img1 from '../../assets/Images/Work/book1.avif';
-import img2 from '../../assets/Images/Work/card1.jpg';
-import img3 from '../../assets/Images/Work/honeyjar.avif'
-import img4 from '../../assets/Images/Work/parfume.jpg'
-import img5 from '../../assets/Images/Work/phone1.avif'
-import img6 from '../../assets/Images/Work/shopping1.jpg';
-import img7 from '../../assets/Images/Work/shopping22.jpg';
-import img8 from '../../assets/Images/Work/showerJel.jpg';
 import { IoEyeOutline } from "react-icons/io5";
+import dataImage from '../../utils/homeContentImages.json'
 
 const WorkPage = () => {
+    const [imageAll, setImageAll] = useState(dataImage);
+    console.log('images is:', imageAll);
+
+    // show more button work 
+    const [showMore, setShowMore] = useState(false);
+
+    const showMoreHandle=()=>{
+        console.log('working');
+        setShowMore(true);
+    }
+
     return (
         <div className='workPageCon'>
             <div className="workPageSections">
-                <div className="imgAll">
-                    <img src={img2} alt="" className="image" />
-                    <div className="overlay">
-                        <div className="text">
-                            <p className='textTitle'><IoEyeOutline className='iconEye' color='white' size={30} /></p>
+                {
+                    imageAll?.slice(0, 8).map((dataInfo) => {
+                        return (
+                            <div className="imgAll">
+                                <img src={dataInfo.img} alt="" className="image" />
+                                <div className="overlay">
+                                    <div className="text">
+                                        <p className='textTitle'><IoEyeOutline className='iconEye' color='white' size={30} /></p>
 
-                        </div>
-                    </div>
-                </div>
-                <div className="imgAll">
-                    <img src={img5} alt="" className="image" />
-                    <div className="overlay">
-                        <div className="text">
-                            <p className='textTitle'><IoEyeOutline className='iconEye' color='white' size={30} /></p>
+                                    </div>
+                                </div>
+                            </div>
 
-                        </div>
-                    </div>
-                </div>
-                <div className="imgAll">
-                    <img src={img6} alt="" className="image" />
-                    <div className="overlay">
-                        <div className="text">
-                            <p className='textTitle'><IoEyeOutline className='iconEye' color='white' size={30} /></p>
+                        )
+                    })
+                }
 
-                        </div>
-                    </div>
-                </div>
-                <div className="imgAll">
-                    <img src={img1} alt="" className="image" />
-                    <div className="overlay">
-                        <div className="text">
-                            <p className='textTitle'><IoEyeOutline className='iconEye' color='white' size={30} /></p>
+               {/* show more products  */}
 
-                        </div>
-                    </div>
-                </div>
-                <div className="imgAll">
-                    <img src={img4} alt="" className="image" />
-                    <div className="overlay">
-                        <div className="text">
-                            <p className='textTitle'><IoEyeOutline className='iconEye' color='white' size={30} /></p>
+               {
+                showMore && imageAll?.slice(0,4).map((dataInfo)=>{
+                    return(
+                        <div className="imgAll">
+                                <img src={dataInfo.img} alt="" className="image" />
+                                <div className="overlay">
+                                    <div className="text">
+                                        <p className='textTitle'><IoEyeOutline className='iconEye' color='white' size={30} /></p>
 
-                        </div>
-                    </div>
-                </div>
-                <div className="imgAll">
-                    <img src={img7} alt="" className="image" />
-                    <div className="overlay">
-                        <div className="text">
-                            <p className='textTitle'><IoEyeOutline className='iconEye' color='white' size={30} /></p>
+                                    </div>
+                                </div>
+                            </div>
 
-                        </div>
-                    </div>
-                </div>
-                <div className="imgAll">
-                    <img src={img3} alt="" className="image" />
-                    <div className="overlay">
-                        <div className="text">
-                            <p className='textTitle'><IoEyeOutline className='iconEye' color='white' size={30} /></p>
-
-                        </div>
-                    </div>
-                </div>
-                <div className="imgAll">
-                    <img src={img8} alt="" className="image" />
-                    <div className="overlay">
-                        <div className="text">
-                            <p className='textTitle'><IoEyeOutline className='iconEye' color='white' size={30} /></p>
-
-                        </div>
-                    </div>
-                </div>
-
+                    )
+                })
+               }
 
             </div>
             <div className="moreBtnSec">
-                <button>load more work</button>
+                <button onClick={showMoreHandle}>load more work</button>
             </div>
 
 
