@@ -8,7 +8,7 @@ const Process = () => {
         <div className='processContainer'>
             <div className="processSec">
                 <h5 className='titleProcess'>our work process</h5>
-                <p className='desAbout'>Was years its sessions was there from he in them together over that, <br></br> third sixth gathered female creeping bearing behold years</p>
+                <p className='desProjectProcess'>Was years its sessions was there from he in them together over that, <br></br> third sixth gathered female creeping bearing behold years</p>
             </div>
             <div className="processImg">
                 <div className="imgSection">

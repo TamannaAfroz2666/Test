@@ -1,6 +1,7 @@
 import React from 'react';
 import ContactHeader from '../../Layout/Header/ContactHeader/ContactHeader';
 import ContactContents from './ContactContents/ContactContents';
+import Footer from '../../Layout/Footer/Footer'
 
 const ContactPage = () => {
     return (
@@ -10,6 +11,8 @@ const ContactPage = () => {
             <ContactContents></ContactContents>
 
             </div>
+            <Footer></Footer>
+            
        
             
            

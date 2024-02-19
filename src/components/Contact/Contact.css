@@ -26,19 +26,31 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
+.desProjectContact1 {
+    text-align: center;
+    width: 48%;
+    font-size: 14px;
+    color: #1a1919cb;
+    line-height: 28px;
+    padding: 0rem 0 1rem 0;
+    margin: auto;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
 
-.contactContents {
+.contactContents1 {
     width: 70%;
     margin: auto;
     margin-top: 3rem;
 }
 
-.nameEmailSec {
+.nameEmailSec1 {
     display: flex;
     gap: 2rem;
 }
 
-.nameSection .nameInputField {
+.nameSection1 .nameInputField1 {
     width: 400px;
     height: 50px;
     font-size: 16px;
@@ -60,7 +72,7 @@ input:focus {
     font-weight: 500;
 }
 
-.titleInputField {
+.titleInputField1 {
     width: 830px;
     height: 50px;
     font-size: 16px;
@@ -72,7 +84,7 @@ input:focus {
 
 }
 
-.commentInputField {
+.commentInputField1 {
     width: 830px;
     height: 190px;
     font-size: 16px;
@@ -84,17 +96,17 @@ input:focus {
 
 }
 
-.commentInputField::placeholder {
+.commentInputField1::placeholder {
     bottom: 4rem;
     position: relative;
 }
 
-.sendBtn {
+.sendBtn1 {
     margin-top: 2rem;
 
 }
 
-.sendBtn button {
+.sendBtn1 button {
     font-size: 12px;
     padding: 12px 28px;
     border: 0;
