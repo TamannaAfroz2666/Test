@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.miniProjects {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.144);
+    padding: 0 0 4rem 0;
+}
+
+.miniProjectSub {
+    width: 90%;
+    margin: auto;
+}
+
+.previSec {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.previousCon button{
+    border: 0;
+    font-weight: 500;
+}
+.nextCon button{
+    border: 0;
+    font-weight: 500;
+
+}

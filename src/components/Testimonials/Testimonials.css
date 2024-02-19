@@ -35,71 +35,7 @@
 /* carosel design start  */
 
 
-.tcb-quote-carousel {
-    background: #efeff3;
-    padding-top: 30px;
-    margin-top: 40px;
 
-    .quote {
-        color: rgba(241, 4, 4, 0.1);
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    .carousel {
-        padding-bottom: 30px;
-
-        .carousel-indicators>li {
-            background-color: #0641f3;
-            border: none;
-        }
-    }
-
-    blockquote {
-        margin-top: 5px;
-        text-align: center;
-        border: none;
-        color: rgb(243, 7, 7);
-        font-size: 10px;
-    }
-
-    .profile-circle {
-        width: 50px;
-        height: 50px;
-        margin: 0 auto;
-        overflow: hidden;
-        border-radius: 100px;
-        color: #0641f3;
-    }
-}
-
-.carousel-fade {
-    .carousel-inner {
-        .item {
-            transition-property: opacity;
-        }
-
-        .item,
-        .active.left,
-        .active.right {
-            opacity: 0;
-        }
-
-        .active,
-        .next.left,
-        .prev.right {
-            opacity: 1;
-        }
-
-        .next,
-        .prev,
-        .active.left,
-        .active.right {
-            left: 0;
-            transform: translate3d(0, 0, 0);
-        }
-    }
-}
 
 .sliderContent {
     height: 300px;
@@ -121,10 +57,11 @@
 }
 .testimonialName{
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
-    text-transform: capitalize;
     padding: 0rem 0;
     font-family: "Poppins", sans-serif;
     font-style: normal;
+    text-transform: uppercase;
+    color: #fff;
 }

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ProjectContent {
+    width: 100%;
+    height: 100%;
+   
+}
+
+/* .projectConSub {
+    width: 90%;
+    margin: auto;
+} */
+
+.project_contents {
+    display: flex;
+    gap: 2rem;
+}
+
+.projectContInfo {
+    width: 550px;
+}
+
+.projectContInfo .lightTitle {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 12rem 0 1.5rem 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.desMultiProject {
+    /* width: 76%; */
+    font-size: 16px;
+    color: #111111cb;
+    line-height: 28px;
+    padding: 0rem 0 .1rem 0%;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    text-align: left;
+
+}
+
+.desMultiProject1 {
+    /* width: 79%; */
+    font-size: 16px;
+    color: #111111cb;
+    line-height: 28px;
+    padding: 0rem 0 0rem 0%;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    text-align: left;
+}
+
+/* .projectConImg{
+    background-image: url('../../../assets/Images/MiniProject//food.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+} */
+.imgProjectSec img {
+    width: 690px;
+    height: 550px;
+}

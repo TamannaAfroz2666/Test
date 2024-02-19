@@ -15,8 +15,7 @@ const Testimonials = () => {
     return (
         <div className='testimonials'>
             <div className="testimonialSec">
-                {/* <button type="button" class="btn btn-primary">Primary</button>
-                <br /> */}
+              
                 <Slider {...settings}>
                     <div className='sliderContent'>
                         <p className='sliderDes'>"Outstanding job and exceeded all expectations.It was a pleasure to work with them on a sizeable first project and i am looking forward to start on the next one asap.</p>
